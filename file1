@@ -1,0 +1,8 @@
+WebLogicPort 8005
+
+</Location>
+<Location /SOA_consolehelp>
+  SetHandler weblogic-handler
+  WebLogicHost cmwstg-app-01
+WebLogicPort 8005 
+</Location>
